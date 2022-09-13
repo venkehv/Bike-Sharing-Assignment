@@ -39,8 +39,11 @@ Temperature, Season, month and year have postive impact on cnt whereas holiday, 
 
 ### Final observations of the model -
 The RSquare for training set turned out to be 0.805
+
 The R Square computation with test set is 0.779 which is very close to the 0.80 observed during the training set
+
 The residual are centred around 0, which is ideal
+
 All the linear regression Assumptions are validated
 
 
