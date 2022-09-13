@@ -16,21 +16,28 @@ Created a multiple linear regression model for the prediction of demand for shar
 Model equation
 cnt = 0.267 + 0.609 X temp + 0.115 X season_4 + 0.077 X month_9 + 0.227 X yr_1 - 0.099 X holiday - 0.254 X hum - 0.179 X windspeed - 0.202 X weather_3
 
-Predictor Variables
+### Predictor Variables
 
 temp : temperature
-yr_1 : year - 2019
-season_4 : Season - Winter
-month_9 : Month - September
-holiday
-hum - Humidity
-Windspeed
-weather_3 - weather - Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds
-Inference:
 
+yr_1 : year - 2019
+
+season_4 : Season - Winter
+
+month_9 : Month - September
+
+holiday
+
+hum - Humidity
+
+Windspeed
+
+weather_3 - weather - Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds
+
+### Inference:
 Temperature, Season, month and year have postive impact on cnt whereas holiday, humidity, windspeed had negative impact on cnt
 
-Final observations of the model -
+### Final observations of the model -
 The RSquare for training set turned out to be 0.805
 The R Square computation with test set is 0.779 which is very close to the 0.80 observed during the training set
 The residual are centred around 0, which is ideal
