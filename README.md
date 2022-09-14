@@ -7,7 +7,7 @@ They have contracted a consulting company to understand the factors on which the
     2. How well those variables describe the bike demands
 
 
-## General Information
+## Solution 
 Created a multiple linear regression model for the prediction of demand for shared bikes
 
 
